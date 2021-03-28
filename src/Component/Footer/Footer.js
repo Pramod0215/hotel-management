@@ -5,24 +5,24 @@ class Footer extends Component {
         return (
             // <!-- Footer -->
             <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-3 col-sm-3">
                             <h4>About Starhotel</h4>
                             <p>Suspendisse sed sollicitudin nisl, at dignissim libero. Sed porta tincidunt ipsum, vel volutpat. <br/>
                                 <br/>Nunc ut fringilla urna. Cras vel adipiscing ipsum. Integer dignissim nisl eu lacus interdum facilisis. Aliquam erat volutpat. Nulla semper vitae felis vitae dapibus. </p>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div className="col-md-3 col-sm-3">
                             <h4>Recieve our newsletter</h4>
                             <p>Suspendisse sed sollicitudin nisl, at dignissim libero. Sed porta tincidunt ipsum, vel volutpa!</p>
-                            <form role="form">
-                                <div class="form-group">
-                                    <input name="newsletter" type="text" id="newsletter" value="" class="form-control" placeholder="Please enter your E-mailaddress"/>
+                            <form>
+                                <div className="form-group">
+                                    <input name="newsletter" type="text" id="newsletter" value="" className="form-control" placeholder="Please enter your E-mailaddress"/>
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-black btn-block">Submit</button>
+                                <button type="submit" className="btn btn-lg btn-black btn-block">Submit</button>
                             </form>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div className="col-md-3 col-sm-3">
                             <h4>From our blog</h4>
                             <ul>
                                 <li>
@@ -42,7 +42,7 @@ class Footer extends Component {
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div className="col-md-3 col-sm-3">
                             <h4>Address</h4>
                             <address>
                                 <strong>Starhotel</strong><br/>795 Las Palmas<br/>Spain, CA 94107<br/>
@@ -53,19 +53,19 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-6"> &copy; 2014 Starhotel All Rights Reserved </div>
-                            <div class="col-xs-6 text-right">
+                <div className="footer-bottom">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xs-6"> &copy; 2021 Starhotel All Rights Reserved </div>
+                            <div className="col-xs-6 text-right">
                                 <ul>
-                                    <li><a href="contact-01.html">Contact</a></li>
+                                    <li><a href="contact-01.html">Contact{" :- "} 8483094849</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="go-top"><i class="fa fa-angle-up fa-2x"></i></div>
+                <div id="go-top"><i className="fa fa-angle-up fa-2x"></i></div>
             </footer>
         )
     }
